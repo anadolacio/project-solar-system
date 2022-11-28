@@ -1,3 +1,122 @@
-.App {
+body {
+  background-image: url('./images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
   text-align: center;
+  font-family: 'Epilogue';
+}
+
+h1{
+  text-transform: uppercase;
+}
+
+h2 {
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 150%;
+text-align: center;
+text-transform: uppercase;
+}
+
+.system {
+  display: flex;
+  flex-direction: row;
+}
+
+.planet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.planet:nth-child(1) img {
+  width: 41px;
+  height: 31px;
+  padding-top: 90px;
+}
+
+.planet:nth-child(2) img {
+  width: 102px;
+  height: 76px;
+  padding-top: 70px;
+}
+
+.planet:nth-child(3) img {
+  width: 106px;
+  height: 79px;
+  padding-top: 70px;
+}
+
+.planet:nth-child(4) img {
+  width: 66px;
+  height: 50px;
+  padding-top: 80px;
+}
+
+.planet:nth-child(5) img {
+  width: 260px;
+  height: 204px;
+  padding-right: 30px;
+}
+
+.planet:nth-child(6) img {
+  width: 282.41px;
+  height: 210.9px;
+  padding-left: 30px;
+}
+
+.planet:nth-child(7) img {
+  width: 144px;
+  height: 109px;
+  padding-top: 50px;
+}
+
+.planet:nth-child(8) img {
+  width: 144px;
+  height: 107px;
+  padding-top: 50px;
+}
+
+.planet img:hover{
+  transform: scale(1.5); 
+}
+
+.missions-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.missions-card {
+  border: #FFFFFF solid 1px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 17px;
+  width: 496px;
+  height: 192px;
+  mix-blend-mode: hard-light;
+  align-content: center;
+  justify-content: space-around;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 120%;
+  margin: 5px;
+}
+
+.informations {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  border-top: #FFFFFF solid 1px;
+
 }
